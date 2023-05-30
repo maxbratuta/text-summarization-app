@@ -2,7 +2,9 @@
 
 This project focuses on text summarization, which aims to generate concise and coherent summaries based on client text.
 
----
+<img height="500" alt="image" src="https://github.com/maxbratuta/text-summarization-app/assets/45269875/12f79448-6d47-48b2-b820-c63dba17da8a">
+
+<br />
 
 ## Technologies Used
 * **Transformers Library**: The Transformers library, developed by [Hugging Face](https://huggingface.co/transformers/v4.10.1/task_summary.html#summarization), is utilized for its state-of-the-art pre-trained models for text generation and summarization.
@@ -10,7 +12,7 @@ This project focuses on text summarization, which aims to generate concise and c
 * **Flask**
 * **HTML / JS / CSS**
 
----
+<br />
 
 ## Steps
 
