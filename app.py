@@ -11,31 +11,11 @@ def index():
     return render_template('index.html')
 
 
-# /generate-article
-@app.route('/v1/generate-article')
-def generate_article():
-    try:
-        article = Article().generate()
-    except ValueError as ve:
-        return make_response({
-            'error': str(ve)
-        }, 400)
-    except Exception as e:
-        print(e)
-        return make_response({
-            'error': 'The server could not process the request.'
-        }, 500)
-
-    return {
-        'article': article
-    }
-
-
 # /get-summary
 @app.route('/v1/get-summary', methods=['POST'])
 def get_summary():
     try:
-        summary_text = Article(article=request.get_json()['article']).get_summary()
+        summary_text = Article(article=request.get_json()['article']).get_summary(min_length=150, max_length=350)
     except ValueError as ve:
         return make_response({
             'error': str(ve)

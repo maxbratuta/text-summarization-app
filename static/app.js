@@ -1,4 +1,4 @@
-const minTextAreaLength = 130;
+const minTextAreaLength = 350;
 const maxTextAreaLength = 1024;
 
 const articleTextArea = document.getElementById('articleText');
