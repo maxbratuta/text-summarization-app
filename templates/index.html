@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Text Summarization App</title>
+
+    <link rel="stylesheet" href="/static/app.css">
+</head>
+
+<body>
+<div class="centering body__wrapper">
+    <h1 class="title mb-24">Text Summarization</h1>
+
+    <div class="centering mb-24 form__wrapper">
+        <form id="summaryForm" class="centering">
+            <div class="article-block mb-24">
+                <textarea id="articleText" rows="10" cols="50"></textarea>
+                <p id="charCount"></p>
+            </div>
+            <button id="summarizeButton" class="centering mb-24" type="button" onclick="summarizeText()">Summarize</button>
+            <p id="errorText"></p>
+        </form>
+    </div>
+
+    <div class="centering summary__wrapper">
+        <h2 class="title mb-24">Summary</h2>
+
+        <div id="summaryBlock" class="centering">
+            <p id="summaryText"></p>
+        </div>
+    </div>
+</div>
+
+<script src="/static/app.js"></script>
+</body>
+</html>
