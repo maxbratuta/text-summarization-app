@@ -2,7 +2,8 @@
 
 This project focuses on text summarization, which aims to generate concise and coherent summaries based on client text.
 
-<img height="500" alt="image" src="https://github.com/maxbratuta/text-summarization-app/assets/45269875/12f79448-6d47-48b2-b820-c63dba17da8a">
+<img height="512" alt="image" src="https://github.com/maxbratuta/text-summarization-app/assets/45269875/35a11c3a-76fb-43c2-9aa2-a16c68900c5c">
+
 
 <br />
 
